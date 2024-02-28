@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GetNameActivity">
+    <TextView
+        android:id="@+id/settingsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:text="@string/settings_menu"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/EditTextGetName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:hint="@string/enter_name"
+        android:inputType="textCapCharacters"
+        android:maxLength="3"
+        android:maxLines="1"
+        tools:ignore="Autofill"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/play_tetris"
+        android:onClick="onStartGame"
+        />
+
+</LinearLayout>

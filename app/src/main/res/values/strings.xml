@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TonyTetris</string>
+    <string name="play_tetris">Play Tetris!</string>
+    <string name="settings">Settings</string>
+    <string name="settings_menu">Settings Menu</string>
+    <string name="enter_name">Enter Name</string>
+</resources>
